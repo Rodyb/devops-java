@@ -3,7 +3,7 @@
 pipeline {   
     agent any
     stages {
-        stage("test") {
+        stage("test1") {
             steps {
                 script {
                     echo "Testing the application..."
